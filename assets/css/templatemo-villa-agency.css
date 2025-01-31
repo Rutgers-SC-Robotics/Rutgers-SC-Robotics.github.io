@@ -396,9 +396,52 @@ Header Style
   transition: all .5s ease 0s;
 }
 
+.nav-container {
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  background: white;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 50px;
+  width: auto;
+}
+
+.logo-text {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: auto;
+}
+
+.nav-links a {
+  color: #1e1e1e;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #f35525;
+}
+
 .header-area .main-nav {
   background: transparent;
   display: flex;
+  align-items: center;
 }
 
 .header-area .main-nav .logo {
@@ -407,19 +450,26 @@ Header Style
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   display: inline-block;
+  margin-right: 50px;
+  display: flex; 
+  align-items: center;
 }
 
 .header-area .main-nav .logo h1 {
-  line-height: 100px;
   font-size: 28px;
   text-transform: uppercase;
   color: #1e1e1e;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 0.5px;
+  font-family: 'Poppins', sans-serif; 
+  margin: 0;
+  height: 40px;
+  line-height: 40px;
 }
 
 .background-header .main-nav .logo h1 {
-  line-height: 80px;
+  height: 100px;
+  line-height: 100px;
 }
 
 .header-area .main-nav ul.nav {
@@ -436,6 +486,7 @@ Header Style
 
 .header-area .main-nav .nav li:last-child {
   padding-right: 0px;
+  margin-top: 0;
 }
 
 .header-area .main-nav .nav li {
@@ -721,6 +772,59 @@ Header Style
 Banner Style
 --------------------------------------------- 
 */
+/* Banner styles */
+.main-banner {
+  position: relative;
+  height: 100vh;
+}
+
+.main-banner .owl-carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.main-banner .item {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease;
+}
+
+.main-banner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 1;
+}
+
+.main-banner .header-text {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.main-banner h1 {
+  font-size: 72px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.main-banner h2 {
+  font-size: 36px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
 
 .main-banner .item {
   background-position: center center;
@@ -824,20 +928,130 @@ Banner Style
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+.owl-banner .owl-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.3) !important;
+  width: 50px;
+  height: 50px;
+  border-radius: 50% !important;
+  z-index: 2;
+}
 
+.owl-banner .owl-nav button.owl-prev {
+  left: 20px;
+}
+
+.owl-banner .owl-nav button.owl-next {
+  right: 20px;
+}
+
+.owl-banner .owl-nav button i {
+  color: white;
+  font-size: 24px;
+  line-height: 50px;
+}
+
+.banner-image {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
 
 /* 
 ---------------------------------------------
 Featured Style
 --------------------------------------------- 
 */
+.course-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.course-card h5 {
+  
+  margin-bottom: 2%;
+}
+
+.course-card p {
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+
+.course-card .badge {
+  background: #ffd6cc;
+  color: #333;
+  padding: 8px 16px;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.certificate-section {
+  display: flex;
+  padding: 60px 20px;
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.certificate-header {
+  flex: 0 0 400px;
+  text-align: left;
+}
+
+.certificate-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.certificate-header .section-tag {
+  color: #f35525;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.certificate-header h2 {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+@media (max-width: 1024px) {
+  .certificate-section {
+      flex-direction: column;
+  }
+  
+  .certificate-header {
+      text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .certificate-heading h2 {
+      font-size: 48px;
+  }
+}
 
 .featured .left-image {
   position: relative;
 }
 
 .featured .left-image img {
-  padding-left: 55px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 30px;
 }
 
 .featured .left-image a {
@@ -939,7 +1153,7 @@ Featured Style
 
 /* 
 ---------------------------------------------
-Video Style
+Chalk Talk
 --------------------------------------------- 
 */
 
@@ -952,39 +1166,79 @@ Video Style
   position: relative;
 }
 
-.video-content {
-  margin-top: -240px;
+/* CSS */
+.chalk-talk {
+  padding: 60px 0;
 }
 
-.video .section-heading h2 {
-  color: #fff;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-.video-content .video-frame {
-  position: relative;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
+.content-wrapper {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
 }
 
-.video-content .video-frame img {
-  border-radius: 10px;
+.image-container {
+  flex: 1;
 }
 
-.video-content .video-frame a {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-26px, -26px);
-  width: 52px;
-  height: 52px;
-  background-color: #fff;
-  border-radius: 50%;
-  display: inline-block;
-  text-align: center;
-  line-height: 52px;
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+  flex: 1;
+  padding-top: 16px;
+}
+
+.header {
+  margin-bottom: 24px;
+}
+
+.tag {
   color: #f35525;
-  outline: 15px solid rgba(254, 85, 37, 0.5);
-  font-size: 18px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #4a4a4a;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+  
+  .image-container,
+  .text-content {
+    width: 100%;
+  }
+  
+  .text-content {
+    padding-top: 24px;
+  }
 }
 
 /* 
