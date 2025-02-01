@@ -1,196 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
 
-  <head>
+body {
+  margin: 0px;
+}
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+.wrapper p {
 
-    <title>Villa Agency TemplateMo - Contact Page</title>
+}
 
-    <!-- Bootstrap core CSS -->
-    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+.slideshow {
+  margin-left:0px;
+  margin-right:0px;
+  margin-top: 75px;
+  height: 603.35px;
+  width: 100%;
+  overflow: hidden;
+  background-image: url('https:\/\/robotics.rutgers.edu\/wp-content\/uploads\/2021\/09\/Faith_Pallone_Holloway_Raimondo-1-scaled.jpg');
+  background-size: cover;
+  background-position: center;
+  align-content: center;
+  color: white;
+}
 
+.slideshow h1, h2 {
+  line-height: 33px;
+  text-shadow: rgb(0, 0, 0, 0.9) 1px 1px 10px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="../assets/css/fontawesome.css">
-    <link rel="stylesheet" href="../assets/css/templatemo-villa-agency.css">
-    <link rel="stylesheet" href="../assets/css/owl.css">
-    <link rel="stylesheet" href="../assets/css/animate.css">
-    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-<!--
+.slideshow h3 mark {
+  line-height: 33px;
+  color: white;
+  background-color: rgb(0, 0, 0, 0.75);
+}
 
-TemplateMo 591 villa agency
+/* Add a background color to the top navigation */
+.topnav {
+  background-color: rgba(255, 255, 255, 0.75);
+  overflow: hidden;
+  height: 75px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
 
-https://templatemo.com/tm-591-villa-agency
+.topnav #menu {
+  position: relative;
+  display: inline-block;
+}
 
--->
-  </head>
+/* Style the links inside the navigation bar */
+.topnav #menu a {
+  color: #333333;
+  font-family: Raleway;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 5px 0px;
+  line-height: 75px;
+}
 
+/* Change the color of links on hover */
+.topnav #menu a:hover {
+  color: #03C4EB;
+}
+
+/* Add a color to the active/current link */
+.topnav #menu a.active {
+  /*background-color: #04AA6D;*/
+  color: red;
+}
+
+.topnav #menu #logo {
+  position: absolute;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+  right: 500px;
+}
+.topnav #menu #logo img {
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+p.first:first-letter {
+    float: left;
+    font-weight: normal;
+    font-size: 110px;
+    line-height: 1;
+    margin-right: 9px;
+}
+/* Images below need to be text center aligned */
+
+</style>
+</head>
 <body>
 
-  <!-- ***** Preloader Start ***** -->
-  <div id="js-preloader" class="js-preloader">
-    <div class="preloader-inner">
-      <span class="dot"></span>
-      <div class="dots">
-        <span></span>
-        <span></span>
-        <span></span>
+<div class="wrapper">
+  <div class="topnav">
+    <div id="menu">
+      <div id="logo">
+        <img src="https://robotics.rutgers.edu/wp-content/uploads/2020/10/RUNB_S_RED_BLACK.png" alt=""/>
       </div>
-    </div>
-  </div>
-  <!-- ***** Preloader End ***** -->
-
-<!--  <div class="sub-header">-->
-<!--    <div class="container">-->
-<!--      <div class="row">-->
-<!--        <div class="col-lg-8 col-md-8">-->
-<!--          <ul class="info">-->
-<!--            <li><i class="fa fa-envelope"></i> info@company.com</li>-->
-<!--            <li><i class="fa fa-map"></i> Sunny Isles Beach, FL 33160</li>-->
-<!--          </ul>-->
-<!--        </div>-->
-<!--        <div class="col-lg-4 col-md-4">-->
-<!--          <ul class="social-links">-->
-<!--            <li><a href="#"><i class="fab fa-facebook"></i></a></li>-->
-<!--            <li><a href="https://x.com/minthu" target="_blank"><i class="fab fa-twitter"></i></a></li>-->
-<!--            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>-->
-<!--            <li><a href="#"><i class="fab fa-instagram"></i></a></li>-->
-<!--          </ul>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
-
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
-                    <a href="../index.html" class="logo">
-                        <h1>Villa</h1>
-                    </a>
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Menu Start ***** -->
-                    <ul class="nav">
-                      <li><a href="../index.html">Home</a></li>
-                      <li><a href="properties.html">Properties</a></li>
-                      <li><a href="property-details.html">Property Details</a></li>
-                      <li><a href="contact.html" class="active">Contact Us</a></li>
-                      <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
-                  </ul>   
-                    <a class='menu-trigger'>
-                        <span>Menu</span>
-                    </a>
-                    <!-- ***** Menu End ***** -->
-                </nav>
-            </div>
-        </div>
-    </div>
-  </header>
-  <!-- ***** Header Area End ***** -->
-
-  <div class="page-heading header-text">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <span class="breadcrumb"><a href="#">Home</a>  /  Contact Us</span>
-          <h3>Contact Us</h3>
-        </div>
-      </div>
+      <a href="#home">HOME</a>
+      <a href="#people">PEOPLE</a>
+      <a href="#research">RESEARCH</a>
+      <a href="#curriculum">CURRICULUM</a>
+      <a href="#n2e">N2E ROBOTICS</a>
+      <a class="active" href="#contact">CONTACT</a>
     </div>
   </div>
 
-  <div class="contact-page section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="section-heading">
-            <h6>| Contact Us</h6>
-            <h2>Get In Touch With Our Agents</h2>
-          </div>
-          <p>When you really need to download free CSS templates, please remember our website TemplateMo. Also, tell your friends about our website. Thank you for visiting. There is a variety of Bootstrap HTML CSS templates on our website. If you need more information, please contact us.</p>
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="item phone">
-                <img src="../assets/images/phone-icon.png" alt="" style="max-width: 52px;">
-                <h6>010-020-0340<br><span>Phone Number</span></h6>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="item email">
-                <img src="../assets/images/email-icon.png" alt="" style="max-width: 52px;">
-                <h6>info@villa.co<br><span>Business Email</span></h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <form id="contact-form" action="" method="post">
-            <div class="row">
-              <div class="col-lg-12">
-                <fieldset>
-                  <label for="name">Full Name</label>
-                  <input type="name" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <label for="email">Email Address</label>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..." required="">
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <label for="subject">Subject</label>
-                  <input type="subject" name="subject" id="subject" placeholder="Subject..." autocomplete="on" >
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <label for="message">Message</label>
-                  <textarea name="message" id="message" placeholder="Your Message"></textarea>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <button type="submit" id="form-submit" class="orange-button">Send Message</button>
-                </fieldset>
-              </div>
-            </div>
-          </form>
-        </div>
-        <div class="col-lg-12">
-          <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12469.776493332698!2d-80.14036379941481!3d25.907788681148624!2m3!1f357.26927939317244!2f20.870722720054623!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x88d9add4b4ac788f%3A0xe77469d09480fcdb!2sSunny%20Isles%20Beach!5e1!3m2!1sen!2sth!4v1642869952544!5m2!1sen!2sth" width="100%" height="500px" frameborder="0" style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);" allowfullscreen=""></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<p style="padding-top: 70px;padding-left: 20%;padding-right: 20%;font-family:'Open Sans';font-size:22px;color:#777777;">
+To learn more about Socially Cognizant Robotics for a Technically Enhanced Society (SOCRATES) email us at socrates-coordinator@rutgers.edu.
+</p>
 
-  <footer>
-    <div class="container">
-      <div class="col-lg-12">
-        <p>Copyright © 2048 Villa Agency Co., Ltd. All rights reserved. 
-        
-        Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
-      </div>
-    </div>
-  </footer>
+</div>
 
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-  <script src="../vendor/jquery/jquery.min.js"></script>
-  <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script src="../assets/js/isotope.min.js"></script>
-  <script src="../assets/js/owl-carousel.js"></script>
-  <script src="../assets/js/counter.js"></script>
-  <script src="../assets/js/custom.js"></script>
-
-  </body>
+</body>
 </html>
