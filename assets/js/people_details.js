@@ -56,17 +56,19 @@
       );
     }
     
+    if (person.personal_url) {
+      personDiv.append(
+        `<a href="${person.personal_url}" target="_blank"><strong>Personal Website</strong></a>`
+      );
+    }
+    
     if (person.bio) {
       personDiv.append(
         `<p>${person.bio}</p>`
       );
     }
     
-    if (person.contact) {
-      personDiv.append(
-        `<p><strong>Contact:</strong> ${person.contact}</p>`
-      );
-    }
+    
     
     root.empty();
     root.append(backButton);
