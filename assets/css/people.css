@@ -1,5 +1,5 @@
 #root {
-  margin-top: 5rem;
+  margin-top: 8rem;
   margin-bottom: 4rem;
 }
 
@@ -33,7 +33,7 @@
   cursor: pointer;
   transition: all .2s ease;
   -webkit-transition: all .2s ease;
-  border-radius: 0.2rem;
+  border-radius: 0.8rem;
   margin-top: .8rem;
   padding-bottom: .5rem;
 }
