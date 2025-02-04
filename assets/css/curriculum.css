@@ -73,6 +73,31 @@
  .nav-links a.active {
     color: var(--primary);
  }
+
+ .mobile-menu-button {
+   display: none;
+ }
+
+ @media (max-width: 768px) {
+   .mobile-menu-button {
+       display: block !important;
+   }
+   
+   .nav-links {
+       display: none;
+       position: absolute;
+       top: 100%;
+       left: 0;
+       width: 100%;
+       background: white;
+       padding: 20px;
+   }
+   
+   .nav-links.show {
+       display: flex !important;
+       flex-direction: column;
+   }
+}
  
  /* Layout */
  .container {

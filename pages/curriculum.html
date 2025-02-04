@@ -16,24 +16,27 @@
 
 <body>
    <!-- Header -->
-   <header class="header">
-       <nav class="nav-container">
-           <a href="../index.html">
-               <div class="logo">
-                   <img src="../assets/images/RUTGERS_V_RED_BLACK_RGB.png" alt="Rutgers Logo" class="logo-img">
-                   <span class="logo-text">SOCRATES</span>
-               </div>
-               <div class="nav-links">
-                   <a href="../index.html">Home</a>
-                   <a href="people.html">People</a>
-                   <a href="research.html">Research</a>
-                   <a href="curriculum.html" class="active">Curriculum</a>
-                   <a href="n2e_robotics.html">N2E Robotics</a>
-                   <a href="contact.html">Contact</a>
-               </div>
-           </a>
-       </nav>
-   </header>
+   <header class="header-area header-sticky">
+        <div class="container">
+            <nav class="nav-container">
+                <div class="logo-section">
+                    <img src="../assets/images/RUTGERS_V_RED_BLACK_RGB.png" alt="Rutgers R Logo" class="logo-img">
+                    <span class="logo-text">SOCRATES</span>
+                </div>
+                <button class="mobile-menu-button">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="nav-links">
+                    <a href="../index.html">Home</a>
+                    <a href="people.html">People</a>
+                    <a href="research.html">Research</a>
+                    <a href="curriculum.html">Curriculum</a>
+                    <a href="n2e_robotics.html">N2E Robotics</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+            </nav>
+        </div>
+    </header>
 
    <!-- Main Content -->
    <main class="container">
@@ -112,6 +115,7 @@
    </footer>
 
    <!-- Scripts -->
+   <script src="../assets/js/nav-bar.js"></script>
    <script>
        // Course Toggle
        document.querySelectorAll('.course-btn').forEach(button => {
