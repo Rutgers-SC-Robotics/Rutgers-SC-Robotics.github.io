@@ -1,0 +1,143 @@
+<!--last update: taqiya, 2/1/25, 10.02PM  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>SOCRATES @ Rutgers - Curriculum</title>
+   <!-- External CSS -->
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <!-- Local CSS -->
+   <link rel="stylesheet" href="../assets/css/curriculum.css">
+   <link rel="stylesheet" href="../assets/css/home.css">
+   <link rel="stylesheet" href="../assets/css/owl.css">
+</head>
+
+<body>
+   <!-- Header -->
+   <header class="header">
+       <nav class="nav-container">
+           <a href="../index.html">
+               <div class="logo">
+                   <img src="../assets/images/RUTGERS_V_RED_BLACK_RGB.png" alt="Rutgers Logo" class="logo-img">
+                   <span class="logo-text">SOCRATES</span>
+               </div>
+               <div class="nav-links">
+                   <a href="../index.html">Home</a>
+                   <a href="people.html">People</a>
+                   <a href="research.html">Research</a>
+                   <a href="curriculum.html" class="active">Curriculum</a>
+                   <a href="n2e_robotics.html">N2E Robotics</a>
+                   <a href="contact.html">Contact</a>
+               </div>
+           </a>
+       </nav>
+   </header>
+
+   <!-- Main Content -->
+   <main class="container">
+       <!-- Certificate Section -->
+       <section class="certificate-section">
+           <div class="content-grid">
+               <div class="program-info">
+                   <h6 class="section-label">| Certificate Program</h6>
+                   <h2 class="main-heading">Graduate Certificate In Socially Cognizant Robotics</h2>
+                   <p class="description">The Certificate program trains a new type of reflective practitioner, through the convergence of the socially aware technologists and the technology-aware social scientist. The certificate is comprised of a three-course sequence developed by the SOCRATES NRT faculty.</p>
+               </div>
+
+               <!-- Course Listings -->
+               <div class="courses-container">
+                   <div class="course-box">
+                       <button class="course-btn">
+                           <h3>Robotics and Society (16:332:640)</h3>
+                           <span class="arrow">▼</span>
+                       </button>
+                       <div class="course-content">
+                           <p>Explores how technology and society interact, covering ethics and social impacts of robotics</p>
+                       </div>
+                   </div>
+
+                   <div class="course-box">
+                       <button class="course-btn">
+                           <h3>Socially Cognizant Robotics (16:332:590)</h3>
+                           <span class="arrow">▼</span>
+                       </button>
+                       <div class="course-content">
+                           <p>Explores foundations and state-of-the-art developments in robotics</p>
+                       </div>
+                   </div>
+
+                   <div class="course-box">
+                       <button class="course-btn">
+                           <h3>Design Methods (16:332:595)</h3>
+                           <span class="arrow">▼</span>
+                       </button>
+                       <div class="course-content">
+                           <p>Hands-on experience through practical projects with interdisciplinary teams</p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+
+       <!-- Chalk Talks Section -->
+       <section class="chalk-talks">
+           <div class="content-grid">
+               <div class="carousel">
+                   <button class="carousel-btn prev">❮</button>
+                   <img id="slideImage" src="../assets/images/SOCRATES_firstcertificate.png" alt="Chalk Talk Session">
+                   <button class="carousel-btn next">❯</button>
+               </div>
+               <div class="talks-info">
+                   <h6 class="section-label">| Chalk Talks</h6>
+                   <h2 class="main-heading">Monthly Discussions And Workshops</h2>
+                   <p class="description">
+                       Chalk-Talk Series brings together trainees, participants, and faculty advisors for monthly team meetings, faculty talks, and reading group discussions. These sessions include workshops on writing skills, presentation preparation, CV building, job search strategies, technical interview preparation, and responsible research practices.
+                   </p>
+               </div>
+           </div>
+       </section>
+   </main>
+
+   <!-- Handbook Link -->
+   <footer class="handbook-section">
+       <div class="container">
+           <a href="../assets/Socrates-Student-Handbook-2-1.pdf" class="handbook-link">
+               <span class="icon">📖</span>
+               <span class="text">SOCRATES NRT Trainee Handbook</span>
+               <span class="arrow">→</span>
+           </a>
+       </div>
+   </footer>
+
+   <!-- Scripts -->
+   <script>
+       // Course Toggle
+       document.querySelectorAll('.course-btn').forEach(button => {
+           button.addEventListener('click', () => {
+               button.parentElement.classList.toggle('active');
+           });
+       });
+
+       // Image Carousel
+       const images = [
+           '../assets/images/SOCRATES_firstcertificate.png',
+           '../assets/images/SOCRATES_GROUPPHOTO2024.jpeg',
+           '../assets/images/IMG_0387-1024x782.jpg'
+       ];
+       let currentSlide = 0;
+
+       function changeSlide(direction) {
+           currentSlide = (currentSlide + direction + images.length) % images.length;
+           document.getElementById('slideImage').src = images[currentSlide];
+       }
+
+       document.querySelector('.prev').onclick = () => changeSlide(-1);
+       document.querySelector('.next').onclick = () => changeSlide(1);
+
+       // Auto advance slides
+       setInterval(() => changeSlide(1), 5000);
+   </script>
+</body>
+</html>
