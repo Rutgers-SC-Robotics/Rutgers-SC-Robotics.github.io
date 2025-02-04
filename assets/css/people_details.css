@@ -1,0 +1,33 @@
+#root {
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+
+
+.person-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.person-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+ .back-button {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+ }
+
+ .back-button:hover {
+  color: var(--primary-color);
+ }
