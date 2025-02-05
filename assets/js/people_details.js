@@ -4,8 +4,10 @@
 
   const root = $('#root');
   
-  function routeToAllPeople() {
-    window.location.href = 'people.html';
+  function onBack() {
+    // window.location.href = 'people.html';
+    // Go back to the previous page
+    window.history.back();
   }
 
   function populateError() {
@@ -15,7 +17,7 @@
       .addClass('error-message')
       .append(
         `<h3>Error Loading Data</h3>
-         <p>There was an error loading the people information. Please try again later.</p>`
+         <p>Please try again later</p>`
       );
     
     root.append(errorDiv);
@@ -33,7 +35,7 @@
       );
     
     backButton.click(function() {
-      routeToAllPeople();
+      onBack();
     }
     );
     
@@ -56,17 +58,19 @@
       );
     }
     
+    if (person.personal_url) {
+      personDiv.append(
+        `<a href="${person.personal_url}" target="_blank"><strong>Personal Website</strong></a>`
+      );
+    }
+    
     if (person.bio) {
       personDiv.append(
         `<p>${person.bio}</p>`
       );
     }
     
-    if (person.contact) {
-      personDiv.append(
-        `<p><strong>Contact:</strong> ${person.contact}</p>`
-      );
-    }
+    
     
     root.empty();
     root.append(backButton);
@@ -89,7 +93,7 @@
     $.getJSON("../../data/people.json", function(peopleData) {
       const search = window.location.search;
       if (!search) {
-        routeToAllPeople();
+        onBack();
         return;
       }
       const person_id = search.split('=')[1];

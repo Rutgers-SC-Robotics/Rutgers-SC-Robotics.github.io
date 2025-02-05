@@ -775,7 +775,7 @@ Banner Style
 /* Banner styles */
 .main-banner {
   position: relative;
-  height: 100vh;
+  height: calc(100vh - 6rem);
 }
 
 .main-banner .owl-carousel {
@@ -787,7 +787,7 @@ Banner Style
 }
 
 .main-banner .item {
-  height: 100vh;
+  height: calc(100vh - 6rem);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
