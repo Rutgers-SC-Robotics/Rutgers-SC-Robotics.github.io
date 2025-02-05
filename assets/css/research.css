@@ -1,4 +1,52 @@
-a {
+#root {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.research-desc {
+  & > b {
     color: var(--primary-color);
-    margin-bottom: 1.6rem;
   }
+}
+
+.publications {
+  margin: 2rem 0;
+  & > a {
+    color: var(--primary-color);
+    width: fit-content;
+  }
+}
+
+.lab-details {
+  display: flex;
+  flex-direction: column;
+
+  & > a {
+    color: var(--primary-color);
+    margin-left: .8rem;
+    width: fit-content;
+  }
+
+  & > a:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  & > p {
+    margin-bottom: 2rem;
+  }
+}
+
+.section-label {
+  &:nth-child(3) {
+    margin-bottom: -0.8rem;
+  }
+
+  margin-top: .8rem;
+  margin-bottom: 1.2rem;
+}
+
+.section-heading {
+
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+}

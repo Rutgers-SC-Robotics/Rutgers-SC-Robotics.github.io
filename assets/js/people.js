@@ -82,7 +82,7 @@
       .addClass('error-message')
       .append(
         `<h3>Error Loading Data</h3>
-         <p>There was an error loading the people information. Please try again later.</p>`
+         <p>Please try again later</p>`
       );
     
     root.append(errorDiv);
