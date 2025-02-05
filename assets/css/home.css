@@ -57,6 +57,8 @@
   display: flex;
   align-items: center;
   gap: 15px;
+  cursor: pointer;
+  text-decoration: none;
  }
  
  .logo-img {
@@ -330,14 +332,14 @@
   align-self: flex-end;
  }
 
- @media (max-width: 849px) {
-  .nav-links { display: none; }
- }
+ /*@media (max-width: 849px) {*/
+ /* */
+ /*}*/
 
  
  /* Media Queries */
  @media (max-width: 768px) {
-
+  .nav-links { display: none; }
   
   .banner-content h1 { font-size: 2.5rem; }
   .banner-content p { font-size: 1.2rem; }
