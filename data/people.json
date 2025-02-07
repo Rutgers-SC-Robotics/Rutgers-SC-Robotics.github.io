@@ -4,7 +4,7 @@
       "img_name": "KristinDana.jpg",
       "name": "Kristin Dana",
       "role": "PI",
-      "personal_url": "",
+      "personal_url": "https://www.ece.rutgers.edu/kristin-dana",
       "bio": "Professor Kristin Dana joined the Department of Electrical and Computer Engineering in 1999. Her research interests include computer vision, robotics, AI, computational photography, and machine learning. She has recently received a $3 million, five-year National Science Foundation Research Traineeship (NSF NRT) grant for her project, “SOCRATES: Socially Cognizant Robotics for a Technology Enhanced Society.” By integrating technology with social and behavioral sciences, SOCRATES aims to develop and implement an innovative, transformative approach to STEM graduate education training.",
       "duration": ""
     },
@@ -12,7 +12,7 @@
       "img_name": "KostasBekris.jpg",
       "name": "Kostas Bekris",
       "role": "Co-PI",
-      "personal_url": "",
+      "personal_url": "https://pracsys.cs.rutgers.edu/members/kostas-bekris/",
       "bio": "Kostas Bekris is a Professor of Computer Science at Rutgers University in New Jersey and an Amazon Scholar with Amazon Robotics. He is working in algorithmic robotics, where his group is developing algorithms for robot planning, learning and perception especially in the context of robot manipulation, robot vehicles with significant dynamics as well as novel soft, adaptive mechanisms. Applications include logistics, manufacturing and field robotics. He has served as Program Chair for the Robotics: Science and Systems (RSS), the Workshop on the Algorithmic Foundations of Robotics (WAFR) conferences and Editor for IJRR. He is a member of the RSS Board. His research has been supported by NSF, DHS, DOD and NASA, including a NASA Early Career Faculty award.",
       "duration": ""
     },
@@ -20,7 +20,7 @@
       "img_name": "JacobFeldman.jpg",
       "name": "Jacob Feldman",
       "role": "Co-PI",
-      "personal_url": "",
+      "personal_url": "https://ruccs.rutgers.edu/jacob",
       "bio": "Jacob Feldman is a Professor in the Department of Psychology and the Center for Cognitive Science (RuCCS) at Rutgers University - New Brunswick, New Jersey, USA. He holds a Ph.D. from M.I.T. in Brain and Cognitive Sciences. He has received a CAREER award from the NSF, the 2002 George Miller award for best paper in general psychology from the APA, the 2005 Troland Award from the National Academy of Sciences, as well as grant funding from NSF and NIH. His research focuses on computational and probabilistic models of human perceptual organization, concept learning, and social wayfinding.",
       "duration": ""
     },
@@ -28,7 +28,7 @@
       "img_name": "JingangYi.jpg",
       "name": "Jingang Yi",
       "role": "Co-PI",
-      "personal_url": "",
+      "personal_url": "http://coewww.rutgers.edu/~jgyi/",
       "bio": "Professor Jingang Yi is currently a Full Professor in mechanical engineering and Peter D. Cherasia Faculty Scholar at Rutgers University. He received the M.A. degree in mathematics and the Ph.D. degree in mechanical engineering from the University of California, Berkeley, in 2001 and 2002, respectively. His research interests include physical human-robot interactions, autonomous robotic and vehicle systems, mechatronics, dynamic systems and control, automation science and engineering. Prof. Yi has received several awards, including the 2018 Japan Society for the Promotion of Science (JSPS) Invitational Fellowship for Research, 2017 Rutgers Chancellor’s Scholars, 2014 ASCE Charles Pankow Award for Innovation, the 2013 Rutgers Board of Trustees Research Fellowship for Scholarly Excellence, and the 2010 NSF CAREER Award.",
       "duration": ""
     },
@@ -36,7 +36,7 @@
       "img_name": "ClintonAndrews.jpg",
       "name": "Clinton Andrews",
       "role": "Co-PI",
-      "personal_url": "",
+      "personal_url": "https://bloustein.rutgers.edu/people/andrews/",
       "bio": "Clinton Andrews is a professor of urban planning, associate dean for research at the Bloustein School, and director of the Center for Green Building at Rutgers. He was educated at Brown and MIT in engineering and planning and worked previously in the private sector and at Princeton University. He teaches environmental planning, coastal risk, and quantitative methods. Andrews performs research on how people use the built environment and the implications for resilience, sustainability, and health. His books include Humble Analysis: The Practice of Joint Fact-Finding, Regulating Regional Power Systems, and Industrial Ecology and Global Change. He is co-editor of the Journal of Planning Education and Research.",
       "duration": ""
     },
@@ -44,7 +44,7 @@
       "img_name": "PernilleHemmer.jpg",
       "name": "Pernille Hemmer",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://ifh.rutgers.edu/faculty_staff/pernille-hemmer/",
       "bio": "Pernille Hemmer is an Assistant Professor in the Department of Psychology. Her research focuses on the relationship between mental representations and naturalistic environments. While Dr. Hemmer’s work has been focused on episodic and semantic memory, the overarching theme of her research is decision-making in naturalistic environments. ",
       "duration": ""
     },
@@ -52,7 +52,7 @@
       "img_name": "HalSalzman.jpg",
       "name": "Hal Salzman",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://bloustein.rutgers.edu/salzman/",
       "bio": "Hal Salzman is a Professor of Public Policy at the Edward J. Bloustein School of Planning and Public Policy and Senior Faculty Fellow at the John J. Heldrich Center for Workforce Development. His research focuses on labor markets, workplace restructuring, skill requirements, and globalization of innovation, engineering and technology design. Recently he has been writing on the science and technology policy implications of his research. Dr. Salzman is currently examining the science and engineering education and labor supply in research supported by the Sloan Foundation.",
       "duration": ""
     },
@@ -60,7 +60,7 @@
       "img_name": "AaronMazzeo.jpg",
       "name": "Aaron Mazzeo",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://mae.rutgers.edu/aaron-mazzeo",
       "bio": "Aaron Mazzeo is an Associate Professor and Aerospace Engineering Undergraduate Director in the Department of Mechanical and Aerospace Engineering. Prior to joining the faculty at Rutgers, he was a postdoctoral fellow at Harvard University, and he completed his undergraduate (S.B.) and graduate degrees (S.M. and Ph.D.) at MIT. The Mazzeo Research Group, or Rutgers Lab for Machines, Manufacturing, and Mechatronics, focuses on flexible and disposable electronics for mechanical and biological sensing, elastic robotics, cold plasma- based processing, scrubbing and cleaning, and in-space manufacturing. Aaron has received an NSF CAREER Award, NASA MSFC Summer Faculty Fellowships, an A. Walter Tyson Assistant Professorship Award through the School of Engineering, a Rutgers Engineering Governing Council’s (EGC) Professor-of-the-Year Award, a Rutgers EGC Teaching Award in Excellence, and a Rutgers Presidential Fellowship for Teaching Excellence. He was also a Faculty Fellow with the Rutgers-New Brunswick Honors College, where he and his family resided.",
       "duration": ""
     },
@@ -68,7 +68,7 @@
       "img_name": "MatthewStone.jpg",
       "name": "Matthew Stone",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://www.cs.rutgers.edu/people/professors/details/matthew-stone",
       "bio": "",
       "duration": "As a computer science professor, I combine technical contributions to research practice with efforts that aim to create new communities, to contribute intuitive ideas and challenging demonstrations to public debate, and to unleash the unpredictable energy of new technologists who can go on to make the world they want to live in."
     },
@@ -76,7 +76,7 @@
       "img_name": "JenniferMerlis.jpg",
       "name": "Jennifer Merlis",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://www.linkedin.com/in/jennifer-fitzpatrick-merlis-7b858a13b/",
       "bio": "Jennifer Merlis is a graduate of St. Joseph's College with a BS in Psychology. Prior to working at Rutgers University Jennifer's career was in health care; as a nursing home administrator, director of admissions and social worker for 13 years.  In 2016 she started working at Rutgers, the Electrical and Computer Engineering Department.  Currently she is the SOCRATES Program Coordinator since 2020.",
       "duration": ""
     },
@@ -84,7 +84,7 @@
       "img_name": "KathyHaynie.jpg",
       "name": "Kathy Haynie",
       "role": "",
-      "personal_url": "",
+      "personal_url": "http://www.haynieresearch.com/our-team.html",
       "bio": "Dr. Kathy Haynie is the Director of Haynie Research and Evaluation, where she leads cutting-edge initiatives in STEM educational evaluation and research, with a primary focus on K-20 computer science education, STEM and interdisciplinary education, educational assessment, and the practical implementation of STEM curricula in classrooms. Dr. Haynie serves as an External Evaluator for the National Science Foundation (NSF) National Research Traineeship (NRT) program, \"Socially Cognizant Robotics for a Technology Enhanced Society\" (SOCRATES). This innovative program integrates advanced technology domains—such as robotics, machine learning, and computer vision—with critical perspectives from social and behavioral sciences, including psychology, cognitive science, and urban policy planning. Dr. Haynie's involvement supports the development of the Certificate in Socially Cognizant Robotics, a transformative graduate training and research initiative. This program prepares scholars to design and implement robotics systems that are not only technologically advanced but also ethically grounded and socially responsible, addressing real-world challenges with a holistic approach. Through her extensive expertise in educational research and her commitment to interdisciplinary collaboration, Dr. Haynie contributes to shaping the next generation of leaders who will drive innovation at the intersection of technology and society.",
       "duration": ""
     },
@@ -92,15 +92,15 @@
       "img_name": "FaithJohnson.jpg",
       "name": "Faith Johnson",
       "role": "",
-      "personal_url": "I have a PhD in Computer Engineering with a focus on computer vision, machine learning, and socially cognizant robotics. My work includes topological map learning for visual navigation, learning a pedestrian social behavior dictionary in an unsupervised manner to answer questions in social science and environment usage, hierarchical networks for autonomous vehicle steering angle prediction, and time series analysis of cranberry albedo for real-time crop health assessment.",
-      "bio": "",
+      "personal_url": "https://fmjohnson97.github.io/",
+      "bio": "I have a PhD in Computer Engineering with a focus on computer vision, machine learning, and socially cognizant robotics. My work includes topological map learning for visual navigation, learning a pedestrian social behavior dictionary in an unsupervised manner to answer questions in social science and environment usage, hierarchical networks for autonomous vehicle steering angle prediction, and time series analysis of cranberry albedo for real-time crop health assessment.",
       "duration": ""
     },
     "dan_nakhimovich": {
       "img_name": "DanNakhimovich.jpg",
       "name": "Dan Nakhimovich",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://www.linkedin.com/in/daniel-nakhimovich/",
       "bio": "My research focus is on task and motion planning (TAMP) for manipulation. Specifically, I study methods for creating efficient, robust, and autonomous, robot systems that can effectively pick and place objects within cluttered and constrained environments. Besides improving trajectory quality and computational efficiency, I am also interested in designing TAMP algorithms for which I can make provable claims in regard to their ability to return valid and optimal solutions.",
       "duration": ""
     },
@@ -116,7 +116,7 @@
       "img_name": "NoahHarmatz.jpg",
       "name": "Noah Harmatz",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://sites.rutgers.edu/mazzeo-research-group/people/noah-harmatz/",
       "bio": "I am currently performing research on the design and control of elastic tendon-driven robots to perform scrubbing of contaminated surfaces.",
       "duration": ""
     },
@@ -124,7 +124,7 @@
       "img_name": "RichardMagnotti.jpg",
       "name": "Richard Magnotti",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://www.cs.rutgers.edu/people/graduate-students/details/richard-magnotti",
       "bio": "",
       "duration": ""
     },
@@ -132,7 +132,7 @@
       "img_name": "JackMcGuire.jpg",
       "name": "Jack McGuire",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://www.linkedin.com/in/mcguire-jack/",
       "bio": "",
       "duration": "2021 - 2023"
     },
@@ -140,7 +140,7 @@
       "img_name": "BenjaminGreenberg.jpg",
       "name": "Benjamin Greenberg",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://www.linkedin.com/in/ben-r-greenberg/",
       "bio": "As robots become more common in social settings, it becomes more urgent to carefully consider the social impacts that they have on the people around them. Within the field of human-robot interaction (HRI), researchers have investigated many factors of robot design that affect human responses; however, this area of research is relatively young, and even the published findings have gained little traction in the systems that are being sold and deployed at scale. At the highest level, this research aims to improve the spatial interactions that people have with robots in real-world deployments.",
       "duration": ""
     },
@@ -148,7 +148,7 @@
       "img_name": "GayatriSreenivasan.jpg",
       "name": "Gayatri Sreenivasan",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://www.linkedin.com/in/gayatri-sreenivasan/",
       "bio": "",
       "duration": "2022 - 2023"
     },
@@ -164,7 +164,7 @@
       "img_name": "RachelLai.jpg",
       "name": "Rachel Lai",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://www.linkedin.com/in/rachellai27/",
       "bio": "",
       "duration": "2022 - 2023"
     },
@@ -172,7 +172,7 @@
       "img_name": "UrielGonzalez.jpg",
       "name": "Uriel Gonzalez",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://www.linkedin.com/in/urielgonzalezbr15/",
       "bio": "Cognitive Psychology Ph.D. Student at Rutgers University. I’m interested in the application of mathematical cognitive models to the study of Decision Making, and Perception, with a great passion for Psychophysics, Statistics, and Bayesian Modeling. In addition, due to my background in the experimental analysis of behavior, another part of my interest is focused on behavioral economics and implementing behavioral and cognitive principles into the innovation and evaluation of the interaction between technology and humans.",
       "duration": ""
     },
@@ -180,7 +180,7 @@
       "img_name": "YinglongMiao.jpg",
       "name": "Yinglong Miao",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://www.linkedin.com/in/yinglong-miao-bba1a611b/",
       "bio": "My research interests are Robotic manipulation of objects in a confined and cluttered space with partial observation, such as occlusions. Generally interested in handling unstructured scenes that induce dependencies of objects and the study of general non-prehensile manipulation actions to allow more flexibility.",
       "duration": ""
     },
@@ -188,7 +188,7 @@
       "img_name": "AntonioBuSha.jpg",
       "name": "Antonio Bu Sha",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://www.linkedin.com/in/antonio-bu-sha/",
       "bio": "I am interested in the design, control and testing of robotic and mechanical systems.",
       "duration": ""
     },
@@ -196,7 +196,7 @@
       "img_name": "AnisChihoub.jpg",
       "name": "Anis Chihoub",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://www.linkedin.com/in/anis-chihoub-531861155",
       "bio": "Research Interests: Computer Vision, Robotics, Neural Radiance Fields, Graphics",
       "duration": ""
     },
@@ -204,7 +204,7 @@
       "img_name": "JakubSuchojad.jpg",
       "name": "Jakub Suchojad",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://www.linkedin.com/in/jakub-suchojad",
       "bio": "My research interests are Theory of Mind and Social Wayfinding, Application of psychological concepts in robotics, Decision making in high cognitive load situations, and Processing of visual, auditory, and tactile feedback and its effect on split-second decisions.",
       "duration": ""
     },
@@ -212,7 +212,7 @@
       "img_name": "AdityaKesari.jpg",
       "name": "Aditya Kesari",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://www.linkedin.com/in/adityakesari21/",
       "bio": "My research is focused on advancing computer vision and robotic perception to enhance the way robots interpret environments, striving to align machine understanding with human perception. I aim to enable robots to form detailed, semantic representations of their surroundings, supporting applications in dynamic human environments and improving interaction quality.",
       "duration": ""
     },
@@ -220,7 +220,7 @@
       "img_name": "AndrewWilson.jpg",
       "name": "Andrew Wilson",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://www.linkedin.com/in/andrew-wilson-08a3a9238/",
       "bio": "Andrew Wilson is a PhD Student in the School of Management and Labor Relations. His research interests are at the intersection of disruptive technologies and the future of work.",
       "duration": ""
     },
@@ -228,7 +228,7 @@
       "img_name": "JoeDoerr.jpg",
       "name": "Joe Doerr",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://scholar.google.com/citations?user=1OeZRecAAAAJ&hl=en&oi=ao",
       "bio": "My overall goal is to create robotic intelligence for succeeding in the diverse and stochastic real world that can act as tools for humans rather than replacements. More specifically, I am interested in robotics that can perform arbitrary tasks described in natural language in unstructured settings. To this end I am focused on task and motion planning (TAMP), reinforcement learning, and leveraging foundation models.",
       "duration": ""
     },
@@ -236,7 +236,7 @@
       "img_name": "KavindyaDalawella.jpg",
       "name": "Kavindya Dalawella",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://www.linkedin.com/in/kdalawella",
       "bio": "My primary research interests involve using insights from infant/human learning to improve autonomous agent design and deep learning architectures. On the psychology side, I am specifically interested in infant learning and the long-term effects of experience on that process. In machine learning, I am focused on reducing the training costs of models by predisposing them to find humanlike solutions to computational tasks.",
       "duration": ""
     },
@@ -244,7 +244,7 @@
       "img_name": "RaquelPadilla.jpg",
       "name": "Raquel Padilla",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://www.linkedin.com/in/raquel-padilla-76513839/",
       "bio": "As a person with a strong background in Planning, I have extensive experience working in transdisciplinary teams in a wide variety of topics. Hence, I have developed skills and knowledge to better understand and address the challenges we face in the current times of continuous and accelerated transformation. In the future, I would like to continue working at the intersection of technology and planning, in topics such as the smart city, the reconfiguration of the workplace, or robotics as an enabler of gender equality.",
       "duration": ""
     },
@@ -252,7 +252,7 @@
       "img_name": "RobertContofalsky.jpg",
       "name": "Robert Contofalsky",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://www.robertcontofalsky.com/",
       "bio": "My research focuses on understanding the fundamental mechanisms of perception, specifically how humans categorize through feature learning. In my categorization experiments, I examine the role of mutual information in categorization processes, aiming to reveal how certain features are learned and prioritized within the human perceptual system. Beyond human cognition, I am also eager to apply these insights to robotics as part of the SOCRATES program’s commitment to socially cognizant robotics.",
       "duration": ""
     },
@@ -260,7 +260,7 @@
       "img_name": "RonanJohn.jpg",
       "name": "Ronan John",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://www.linkedin.com/in/ronan-john/",
       "bio": "I am currently researching anomaly detection methods using neural volumetric representations. I am interested in conducting further research in the field of volumetric representations, particularly in making them more computationally and storage efficient. Beyond that, I am interested in similar representations of space along with their applications for visual navigation.",
       "duration": ""
     },
@@ -268,7 +268,7 @@
       "img_name": "SumanthTangirala.jpg",
       "name": "Sumanth Tangirala",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://sumanthtangirala.com/",
       "bio": "I am a Ph.D. student in Computer Science at Rutgers University, where I work under the advisement of Dr. Kostas E. Bekris. My research lies at the critical intersection of robotics, machine learning, and human-robot interaction. My primary focus is developing planning algorithms that enable robots to navigate effectively in dynamic, unstructured environments. I am particularly passionate about addressing the challenges of safe, verifiable planning and social navigation to ensure seamless human-robot interactions.",
       "duration": ""
     },
@@ -276,7 +276,7 @@
       "img_name": "TaqiyaEhsan.jpg",
       "name": "Taqiya Ehsan",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://taqiyaehsan.github.io/",
       "bio": "The overarching focus of my research is on advancing multimodal approaches for smart spaces, integrating principles of computer vision, natural language processing, and causal reasoning. Currently, I&#39;m working on designing a policy generation framework informed by multimodal causal reasoning to improve environmental adaptability by synergizing data-driven causal discovery algorithms with domain knowledge of language models.",
       "duration": ""
     },
@@ -284,15 +284,15 @@
       "img_name": "ZiyadAbouelenin.jpg",
       "name": "Ziyad Abouelenin",
       "role": "",
-      "personal_url": "",
-      "bio": "",
+      "personal_url": "https://www.linkedin.com/in/ziyad-abouelenin/",
+      "bio": "My research focuses on structure dynamics, control, and mechatronics, emphasizing designing intelligent systems that blend mechanical, electronic, and biological elements. With a background in mechanics, electronics, computer science, and control, I am exceptionally skilled at integrating these fields to develop practical solutions that respond adaptively to human needs.",
       "duration": "My research focuses on structure dynamics, control, and mechatronics, emphasizing designing intelligent systems that blend mechanical, electronic, and biological elements. With a background in mechanics, electronics, computer science, and control, I am exceptionally skilled at integrating these fields to develop practical solutions that respond adaptively to human needs."
     },
     "hemali_angne": {
       "img_name": "HemaliAngne.jpg",
       "name": "Hemali Angne",
       "role": "",
-      "personal_url": "",
+      "personal_url": "https://sites.rutgers.edu/memory-optimization-lab/",
       "bio": "Hemali uses computational modeling to study human memory by placing it in realistic settings, including studying it as people interact with each other and studying it with naturalistic stimuli. They are also interested in understanding the effects technology has on society to foster reflective and responsible development.",
       "duration": ""
     }
@@ -370,9 +370,9 @@
         "Hui Cheng, Seedland Group",
         "Mike Cross, Nokia Bell Labs",
         "Parneet Kaur, Sea Machines Robotics",
-        "Florin Ghesu, Siemens Healthineer",
+        "Florin Ghesu, Siemens Healthineers",
         "Hans Woithe, Nokia Bell Labs",
-        "Young-Ho Kim, Siemens Healthineer",
+        "Young-Ho Kim, Siemens Healthineers",
         "Mandev Singh, Aersys,Inc.",
         "Jon Brookshire, Latent AI",
         "Harris Mousoulis, Siemens"

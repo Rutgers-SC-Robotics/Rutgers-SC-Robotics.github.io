@@ -1,0 +1,53 @@
+.row {
+  margin-top: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+a {
+    color: var(--primary-color);
+    width: fit-content;
+  }
+
+#root {
+  min-height: 20vh;
+  margin: 0rem 0 2rem 0;
+
+  & > nav {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.year-heading {
+  margin-top: .8rem;
+  margin-bottom: .8rem;
+}
+
+.paper {
+  /*background: var(--secondary-color);*/
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #eee;
+}
+
+.paper-title {
+  font-size: 1.1rem;
+  font-weight: 550;
+}
+
+.paper-venue {
+  font-style: italic;
+}
+
+
+
+.page-item:not(.active) > .page-link {
+  color: var(--primary-color);
+}
+
+.page-item.active > .page-link {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}

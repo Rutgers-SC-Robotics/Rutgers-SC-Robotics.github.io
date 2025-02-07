@@ -2,17 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>People | SOCRATES</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/fontawesome.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | SOCRATES</title>
+  <!-- External CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Local CSS -->
   <link rel="stylesheet" href="../assets/css/home.css">
   <link rel="stylesheet" href="../assets/css/owl.css">
-  <link rel="stylesheet" href="../assets/css/animate.css">
-  <link rel="stylesheet" href="../assets/css/people.css">
-  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 
   <link rel="icon" type="image/png" href="../assets/images/favicon/favicon-96x96.png" sizes="96x96"/>
   <link rel="icon" type="image/svg+xml" href="../assets/images/favicon/favicon.svg"/>
@@ -43,15 +40,7 @@
 </head>
 
 <body>
-<div id="js-preloader" class="js-preloader">
-  <div class="preloader-inner">
-    <span class="dot"></span>
-    <div class="dots"><span></span><span></span><span></span></div>
-  </div>
-</div>
-
-<!-- ***** Header Area Start ***** -->
-<script src="../assets/js/nav-bar.js"></script>
+<!-- Header -->
 <header class="header-area header-sticky">
   <div class="container">
     <nav class="nav-container">
@@ -73,28 +62,37 @@
     </nav>
   </div>
 </header>
-<!-- ***** Header Area End ***** -->
+
+
+<!-- Main Content -->
 <div class="content">
 <div class="container">
-  <div class="row" style="position: relative;">
+  <div class="row" style="position: relative; min-height: 70vh">
+    <br><br><br>
+    <p align="center">
+      To learn more about Socially Cognizant Robotics for a Technically Enhanced Society (SOCRATES) email us at <a
+            href="mailto:socrates-coordinator@rutgers.edu">socrates-coordinator@rutgers.edu</a>!</p>
 
-    <div id="root"></div>
   </div>
 </div>
 </div>
-    <footer>
-      <div class="container">
-        <p>© 2025 Rutgers University. NSF-NRT SOCRATES.</p>
-      </div>
-    </footer>
 
-    <script src="../vendor/jquery/jquery.min.js"></script>
-    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../assets/js/isotope.min.js"></script>
-    <script src="../assets/js/owl-carousel.js"></script>
-    <script src="../assets/js/counter.js"></script>
-    <script src="../assets/js/custom.js"></script>
-    <script src="../assets/js/people.js"></script>
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p>© 2025 Rutgers University. NSF-NRT SOCRATES.</p>
+  </div>
+</footer>
 
+<!-- Scripts -->
+<script src="../assets/js/nav-bar.js"></script>
+<script>
+  // Course Toggle
+  document.querySelectorAll('.course-btn').forEach(button => {
+    button.addEventListener('click', () => {
+      button.parentElement.classList.toggle('active');
+    });
+  });
+</script>
 </body>
 </html>
