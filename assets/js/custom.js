@@ -37,6 +37,31 @@
 		]
 	});
 
+	// Initialize the bottom carousel
+	$(document).ready(function(){
+		$(".bottom-carousel").owlCarousel({
+		loop: true,
+		margin: 30,
+		nav: true,
+		navText: ['<span>‹</span>','<span>›</span>'],
+		dots: true,
+		autoplay: true,
+		autoplayTimeout: 5000,
+		autoplayHoverPause: true,
+		responsive: {
+			0: {
+			items: 1
+			},
+			768: {
+			items: 2
+			},
+			992: {
+			items: 3
+			}
+		}
+		});
+	});
+
 	var width = $(window).width();
 		$(window).resize(function() {
 		if (width > 767 && $(window).width() < 767) {
