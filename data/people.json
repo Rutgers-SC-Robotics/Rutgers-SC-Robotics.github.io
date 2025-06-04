@@ -296,6 +296,38 @@
       "bio": "Hemali uses computational modeling to study human memory by placing it in realistic settings, including studying it as people interact with each other and studying it with naturalistic stimuli. They are also interested in understanding the effects technology has on society to foster reflective and responsible development.",
       "duration": ""
     },
+    "sandra_jae_ah_chung": {
+      "img_name": "SandraJae-AhChung.jpg",
+      "name": "Sandra Jae-Ah Chung",
+      "role": "",
+      "personal_url": "https://www.linkedin.com/in/sandra-jae-ah-chung-56b170182/",
+      "bio": "",
+      "duration": ""
+    },
+    "michael_grossi": {
+      "img_name": "MichaelGrossi.jpg",
+      "name": "Michael Grossi",
+      "role": "",
+      "personal_url": "https://www.linkedin.com/in/michael-grossi-158633263/",
+      "bio": "",
+      "duration": ""
+    },
+    "amir_lindor": {
+      "img_name": "AmirLindor.jpg",
+      "name": "Amir Lindor",
+      "role": "",
+      "personal_url": "https://www.linkedin.com/in/amir-lindor-b247a8257/",
+      "bio": "",
+      "duration": ""
+    },
+    "adam_dsouza": {
+      "img_name": "AdamDSouza.png",
+      "name": "Adam D'Souza",
+      "role": "",
+      "personal_url": "https://www.linkedin.com/in/adam-d-souza/",
+      "bio": "",
+      "duration": ""
+    },
     "edgar_granados_osegueda": {
       "name": "Edgar Granados Osegueda",
       "personal_url": "https://pracsys.cs.rutgers.edu/members/edgar-granados/"
@@ -309,8 +341,12 @@
       "personal_url": "https://www.linkedin.com/in/nchen9191"
     },
     "patrick_meng": {
+      "img_name": "PatrickMeng.jpg",
       "name": "Patrick Meng",
-      "personal_url": "https://www.linkedin.com/in/patrick-meng-558698201"
+      "role": "",
+      "personal_url": "https://www.linkedin.com/in/patrick-meng-558698201",
+      "bio": "",
+      "duration": ""
     },
     "suujay_dhhoka": {
       "name": "Suujay Dhhoka",
@@ -416,7 +452,12 @@
         "ronan_john",
         "sumanth_tangirala",
         "taqiya_ehsan",
-        "ziyad_abouelenin"
+        "ziyad_abouelenin",
+        "patrick_meng",
+        "michael_grossi",
+        "amir_lindor",
+        "adam_dsouza",
+        "sandra_jae_ah_chung"
       ]
     },
     "industry_consortium_members": {
@@ -472,7 +513,6 @@
         "edgar_granados_osegueda",
         "isidoros_marougkas",
         "nelson_chen",
-        "patrick_meng",
         "suujay_dhhoka",
         "aniket_kulkarni",
         "hriday_purohit",
