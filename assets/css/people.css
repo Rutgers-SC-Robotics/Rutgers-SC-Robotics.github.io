@@ -4,7 +4,7 @@
 }
 
 .category {
-  & > h3 {
+  &>h3 {
     margin-top: 1.2rem;
     margin-bottom: .8rem;
   }
@@ -38,6 +38,10 @@
 .person-line {
   margin-top: .4rem;
   margin-left: 1.2rem;
+}
+
+.person-line>a {
+  color: var(--primary-color);
 }
 
 .person-img {

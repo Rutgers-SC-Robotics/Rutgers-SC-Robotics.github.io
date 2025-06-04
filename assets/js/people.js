@@ -19,7 +19,7 @@
       }
       
       const show_images = categoryDetails.show_images;
-      
+      const show_links = categoryDetails.show_links;
       const categoryDiv = $('<div>')
         .addClass('category')
         .attr('show-images', show_images)
@@ -41,7 +41,7 @@
       categoryDetails.people.forEach(person_id => {
         var personDiv;
 
-        if (person_id in people_details) {
+        if (person_id in people_details && show_images) {
           personDiv = $('<div>').addClass('person-card');
           
           personDiv.click(function() {
@@ -61,6 +61,17 @@
           personDiv.append(
             `${personName}`
           );
+        }
+        else if (person_id in people_details && show_links) {
+          personDiv = $('<div>').addClass('person-line');
+          const person = people_details[person_id];
+          const personal_url = person['personal_url'];
+          const name = person['name'];
+          if (personal_url) {
+            personDiv.append(
+              `<a href="${personal_url}" target="_blank">${name}</a>`
+            );
+          }
         }
         else {
           personDiv = $('<div>').addClass('person-line');

@@ -295,6 +295,66 @@
       "personal_url": "https://sites.rutgers.edu/memory-optimization-lab/",
       "bio": "Hemali uses computational modeling to study human memory by placing it in realistic settings, including studying it as people interact with each other and studying it with naturalistic stimuli. They are also interested in understanding the effects technology has on society to foster reflective and responsible development.",
       "duration": ""
+    },
+    "edgar_granados_osegueda": {
+      "name": "Edgar Granados Osegueda",
+      "personal_url": "https://pracsys.cs.rutgers.edu/members/edgar-granados/"
+    },
+    "isidoros_marougkas": {
+      "name": "Isidoros Marougkas",
+      "personal_url": "https://www.linkedin.com/in/isidoros-marougkas"
+    },
+    "nelson_chen": {
+      "name": "Nelson Chen",
+      "personal_url": "https://www.linkedin.com/in/nchen9191"
+    },
+    "patrick_meng": {
+      "name": "Patrick Meng",
+      "personal_url": "https://www.linkedin.com/in/patrick-meng-558698201"
+    },
+    "suujay_dhhoka": {
+      "name": "Suujay Dhhoka",
+      "personal_url": "https://www.linkedin.com/in/suujay-dhhoka-332018196"
+    },
+    "aniket_kulkarni": {
+      "name": "Aniket Kulkarni",
+      "personal_url": "https://www.linkedin.com/in/aniket-kulkarni-13741b189"
+    },
+    "hriday_purohit": {
+      "name": "Hriday Purohit",
+      "personal_url": "https://www.linkedin.com/in/hridaypurohit/"
+    },
+    "sanskar_shah": {
+      "name": "Sanskar Shah",
+      "personal_url": "https://www.linkedin.com/in/sanskarshah"
+    },
+    "zachary_waynor": {
+      "name": "Zachary Waynor",
+      "personal_url": "https://www.linkedin.com/in/zachary-waynor/"
+    },
+    "feng_han": {
+      "name": "Feng Han",
+      "personal_url": "https://www.linkedin.com/in/feng-han-53ab3716b"
+    },
+    "ryan_meegan": {
+      "name": "Ryan Meegan",
+      "personal_url": "https://www.linkedin.com/in/ryanmeegan"
+    },
+    "vincenzo_dimatteo": {
+      "name": "Vincenzo Dimatteo",
+      "personal_url": "https://www.linkedin.com/in/vincenzo-dimatteo-4664081bb"
+    },
+    "nicholas_meegan": {
+      "name": "Nicholas Meegan",
+      "personal_url": "https://www.linkedin.com/in/nicholasjmeegan/"
+    },
+    "amet_vikram": {
+      "name": "Amet Vikram",
+      "personal_url": "https://www.linkedin.com/in/amet-vikram13"
+    },
+    "chunchu_zhu": {
+      "name": "Chunchu Zhu",
+      "personal_url": "https://www.linkedin.com/in/chunchu-zhu-254797141"
     }
   },
   "categories": {
@@ -400,11 +460,35 @@
         "Abdeslam Boularias",
         "Mridul Aanjaneya",
         "Bo Yuan",
-        "Douglas Kruse"
+        "Douglas Kruse",
+        "Adam Gormley"
+      ]
+    },
+    "affiliated_students": {
+      "category_name": "Affiliated Students",
+      "show_links": true,
+      "show_images": false,
+      "people": [
+        "edgar_granados_osegueda",
+        "isidoros_marougkas",
+        "nelson_chen",
+        "patrick_meng",
+        "suujay_dhhoka",
+        "aniket_kulkarni",
+        "hriday_purohit",
+        "sanskar_shah",
+        "zachary_waynor",
+        "feng_han",
+        "ryan_meegan",
+        "vincenzo_dimatteo",
+        "nicholas_meegan",
+        "amet_vikram",
+        "chunchu_zhu"
       ]
     },
     "advisory_board": {
       "category_name": "Advisory Board",
+      "show_links": false,
       "people": [
         "Eileen Kowler",
         "Robert Kopp",
