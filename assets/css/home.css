@@ -98,7 +98,7 @@ body {
 }
 
 /* Mobile styles */
-@media (max-width: 849px) {
+@media (max-width: 900px) {
   .mobile-menu-button {
     display: block !important;
   }
@@ -715,9 +715,3 @@ footer {
     width: 100%;
   }
 }
-
-Sandra Jae-Ah Chung
-Patrick Meng
-Michael Grossi
-Amir Lindor
-Adam D'Souza
