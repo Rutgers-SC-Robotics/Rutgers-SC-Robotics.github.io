@@ -17,6 +17,10 @@
   box-sizing: border-box;
 }
 
+.keynote-speaker {
+  margin-bottom: 30px; /* Adjust this value to control the size of the gap */
+}
+
 /* Base */
 body {
   font-family: 'Montserrat', sans-serif;
