@@ -22,26 +22,62 @@ echo "Excluding: $SCRIPT_NAME and hidden directories/files"
 TEMP_DIR=$(mktemp -d)
 echo "Creating temporary directory: $TEMP_DIR"
 
-# Copy all files except the excluded ones to the temporary directory
-echo "Copying files to temporary directory..."
-find . -type f -not -name "$SCRIPT_NAME" -not -path "*/\.*" | while read -r file; do
-    # Create directory structure in temp directory
-    mkdir -p "$TEMP_DIR/$(dirname "$file")"
-    # Copy the file
-    cp "$file" "$TEMP_DIR/$file"
-done
+# Stage files to the temporary directory, preserving timestamps
+echo "Staging files to temporary directory..."
+if command -v rsync >/dev/null 2>&1; then
+    rsync -a \
+        --exclude="$SCRIPT_NAME" \
+        --exclude='.*' \
+        --exclude='*/.*' \
+        ./ "$TEMP_DIR/"
+else
+    find . -type f -not -name "$SCRIPT_NAME" -not -path "*/\.*" | while read -r file; do
+        mkdir -p "$TEMP_DIR/$(dirname "$file")"
+        cp -p "$file" "$TEMP_DIR/$file"
+    done
+fi
 
-# Transfer the files using scp (recursively)
-echo "Transferring files to server..."
-scp -r "$TEMP_DIR"/* "$SERVER:$REMOTE_PATH/"
+echo "Determining best transfer tool (rclone or rsync)..."
 
-SCP_EXIT_CODE=$?
+EXIT_CODE=0
 
-# Clean up temporary directory
+if command -v rclone >/dev/null 2>&1; then
+    echo "Using rclone to copy only changed files..."
+    # Exclude the script itself and hidden files/directories everywhere
+    # rclone will compare size and modification time to avoid re-copying unchanged files
+    RCLONE_REMOTE=":sftp,host=coewww-static.rutgers.edu,user=${NETID}:$REMOTE_PATH/"
+    rclone copy "$TEMP_DIR"/ "$RCLONE_REMOTE" \
+        --progress \
+        --transfers 8 \
+        --checkers 16 \
+        --sftp-ask-password \
+        --exclude "/**/.**" \
+        --exclude "$SCRIPT_NAME"
+    EXIT_CODE=$?
+elif command -v rsync >/dev/null 2>&1; then
+    # Check if rsync exists on the remote host; if not, fall back to scp
+    if ssh "$SERVER" "command -v rsync >/dev/null 2>&1"; then
+        echo "rclone not found; using rsync to copy only changed files..."
+        # rsync uses size+mtime by default to detect changes
+        rsync -avz "$TEMP_DIR"/ "$SERVER:$REMOTE_PATH/"
+        EXIT_CODE=$?
+    else
+        echo "Remote rsync not found; falling back to scp..."
+        scp -rp "$TEMP_DIR"/* "$SERVER:$REMOTE_PATH/"
+        EXIT_CODE=$?
+    fi
+else
+    echo "Neither rclone nor rsync found; falling back to scp (will re-copy everything)..."
+    # Transfer the files using scp (recursively) from staged directory
+    echo "Transferring files to server..."
+    scp -r "$TEMP_DIR"/* "$SERVER:$REMOTE_PATH/"
+    EXIT_CODE=$?
+fi
+
 echo "Cleaning up temporary directory..."
 rm -rf "$TEMP_DIR"
 
-if [ $SCP_EXIT_CODE -eq 0 ]; then
+if [ $EXIT_CODE -eq 0 ]; then
     echo "Website files successfully updated to $SERVER:$REMOTE_PATH"
 else
     echo "Error: Failed to update website files"
