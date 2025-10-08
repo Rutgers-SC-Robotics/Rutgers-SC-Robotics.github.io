@@ -18,7 +18,18 @@
 }
 
 .keynote-speaker {
-  margin-bottom: 30px; /* Adjust this value to control the size of the gap */
+  margin-bottom: 30px;
+  /* Adjust this value to control the size of the gap */
+}
+
+a {
+  color: #fa1616;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* Base */
